@@ -10,6 +10,7 @@
         <script type="text/javascript" src="http://code.jquery.com/mobile/1.0rc1/jquery.mobile-1.0rc1.min.js"></script>
 
         <!--my css-->
+        <link rel="stylesheet" href="css/mycss/main.css">
     </head>
 
     <body>
@@ -17,19 +18,57 @@
         <div data-role="page">
 
             <div data-role="header">
-                <h1>Music Manager - Homepage</h1>
+                <h1>Music Manager</h1>
             </div><!-- /header -->
 
             <div data-role="content">
-                <p>Page content goes here.</p>
-                <p>Questa è l'homepage di Music Manager!.</p>
-                <p>Page content goes here.</p>
+                1
             </div><!-- /content -->
 
-            <div data-role="footer">
-                <h4>Credits: Marco Solazzi e <a href="http://www.html.it" target="_blank">HTML.it</a></h4>
-            </div><!-- /footer -->
+            <div data-role="navbar" data-iconpos="left" >
+                <ul>
+                    <li><a href="index.html" data-icon="home" class="ui-btn-active">Home</a></li>
+                    <li><a href="#album-list" data-icon="grid" data-transition="pop">Album List</a></li>
+                    <li><a href="#insert-album" data-icon="bars" data-transition="pop">Insert album</a></li>
+                </ul>
+            </div>
         </div><!-- /page -->
+
+        <div data-role="page" id="album-list">
+            <div data-role="header">
+                <h1>Album List</h1>
+            </div><!-- /header -->
+
+            <div data-role="content">
+                2
+            </div><!-- /content -->
+
+            <div data-role="navbar" data-iconpos="left">
+                <ul>
+                    <li><a href="index.html" data-icon="home" class="ui-btn-active">Home</a></li>
+                    <li><a href="#album-list" data-icon="grid" data-transition="pop">Album List</a></li>
+                    <li><a href="#insert-album" data-icon="bars" data-transition="pop">Insert album</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="page" id="insert-album">
+            <div data-role="header">
+                <h1>Insert Album</h1>
+            </div><!-- /header -->
+
+            <div data-role="content">
+                3
+            </div><!-- /content -->
+
+            <div data-role="navbar" data-iconpos="left">
+                <ul>
+                    <li><a href="index.html" data-icon="home" class="ui-btn-active">Home</a></li>
+                    <li><a href="#album-list" data-icon="grid" data-transition="pop">Album List</a></li>
+                    <li><a href="#inser-album" data-icon="bars" data-transition="pop">Insert album</a></li>
+                </ul>
+            </div>
+        </div>
 
     </body>
 </html>

@@ -1,0 +1,21 @@
+
+[data-role=page]{
+    height: 100vh;
+}
+
+[data-role=navbar]{
+    position: absolute!important;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.ui-header{
+    background-color: #0099FF;
+}
+
+.ui-bar-a{
+    background: #0099FF none;
+    color: #000000;
+    text-shadow: none;
+}
